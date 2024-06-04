@@ -10,6 +10,7 @@
   --op-surface-0: white;
   --op-surface-1: black;
   --op-surface-2: rgb(128, 5, 189);
+  --op-surface-3: rgb(247, 0, 86);
   --op-brand-0: oklch(88% 0.15 191);
   --op-brand-1: oklch(62% 0.25 14);
   --op-brand-gradient: linear-gradient(
@@ -22,7 +23,7 @@
 
 body {
   background-color: var(--op-surface-0);
-  color: var(--op-surface-1);
+  color: var(--op-surface-3);
 }
 
 a {
@@ -234,7 +235,7 @@ footer {
 footer h6 {
   float: none;
   text-align: center;
-  color: white;
+  color: var(--op-surface-0);
   font-size: small;
 }
 
@@ -250,7 +251,7 @@ footer h6 {
 @media (max-width: 600px) {
   .redes li i {
     font-size:20px;
-    color: white;
+    color: var(--op-surface-0);
   }
   footer {
     justify-content:space-between;
