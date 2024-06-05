@@ -53,7 +53,13 @@ nav {
   bottom: 0;
   cursor: pointer;
   padding: 0 3vw;
-}  
+}
+
+.header h1 {
+  color: blanchedalmond;
+  font-size: 250%;
+  text-shadow: #f9486c 2px 2px 3px;
+}
 .redes {  
   z-index: 1000;
  /* position: fixed;     */
@@ -252,6 +258,14 @@ footer h6 {
   .redes li i {
     font-size:20px;
     color: var(--op-surface-0);
+  }
+  .redes {
+    margin-top: 4px;
+  }
+  .header h1 {
+    color: blanchedalmond;
+    font-size: 160%;
+    text-shadow: #f9486c 2px 2px 3px;
   }
   footer {
     justify-content:space-between;
